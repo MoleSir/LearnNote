@@ -1,0 +1,5 @@
+-- 手写代码创建过程比较麻烦
+-- 在 MySQLWorkBench 中可以直接创建
+-- 在数据库的 Stored Procedure 右键
+-- 点击 Create Stored Procedure 
+-- 会出现一个界面， MySQL 已经写好了框架，我们只有实现函数体就好

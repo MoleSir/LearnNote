@@ -1,0 +1,8 @@
+USE sql_store;
+SET TRANSACTION ISOLATION LEVEL SERIALIZABLE;
+
+-- 解决
+START TRANSACTION;
+-- 尝试读取，阻塞等待客户 2 把数据提交 
+SELECT * FROM customers WHERE state = 'VA';
+COMMIT;
